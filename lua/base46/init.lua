@@ -4,22 +4,6 @@ local opts = require("nvconfig").base46
 local cache_path = vim.g.base46_cache
 
 local integrations = {
-  "blankline",
-  "blink",
-  "cmp",
-  "defaults",
-  "devicons",
-  "git",
-  "lsp",
-  "mason",
-  "nvcheatsheet",
-  "nvimtree",
-  "statusline",
-  "syntax",
-  "treesitter",
-  "tbline",
-  "telescope",
-  "whichkey",
 }
 
 for _, value in ipairs(opts.integrations) do
